@@ -1,0 +1,42 @@
+# Guía — Agenda de eventos culturales de Madrid (open data)
+
+## Origen
+
+Dataset del catálogo municipal de Madrid: actividades de ocio y cultura en la ciudad.
+Publicado en datos.madrid.es en varios formatos (CSV, JSON, XML, PDF).
+
+## Ámbito temporal
+
+Actividades previstas para los próximos 100 días desde la fecha de publicación del fichero.
+
+## Tipos de actividad frecuentes
+
+- Cine de verano al aire libre en distintos distritos
+- Exposiciones en centros culturales y museos
+- Itinerarios guiados (El Retiro, Casa de Campo)
+- Actividades infantiles y familiares
+- Conciertos y festivales en espacios municipales
+
+## Campos útiles del CSV
+
+TITULO — nombre del evento
+DESCRIPCION — detalle, duración, edad recomendada
+DISTRITO-INSTALACION — barrio administrativo
+GRATUITO — 1 si es gratis, 0 si no
+FECHA / HORA — planificación
+NOMBRE-INSTALACION — lugar concreto
+
+## Uso en un sistema RAG
+
+Este corpus mezcla tres tipos de fuente sobre el mismo tema:
+
+1. FAQ y guía (texto editorial)
+2. PDF de documentación técnica del dataset
+3. CSV con un registro por evento
+
+Un asistente puede responder, por ejemplo:
+- «¿Hay cine gratuito en agosto?»
+- «¿Qué actividades hay en el Retiro?»
+- «¿Qué significa el campo GRATUITO?»
+
+La respuesta debe apoyarse en el fragmento (chunk) recuperado, citando la fuente.

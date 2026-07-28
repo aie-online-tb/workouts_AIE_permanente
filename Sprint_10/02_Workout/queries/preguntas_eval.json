@@ -1,0 +1,45 @@
+{
+  "descripcion": "Preguntas fijas para evaluación de respuestas RAG (Sprint 10).",
+  "preguntas": [
+    {
+      "id": "q1",
+      "texto": "¿Qué significa el campo GRATUITO en el dataset?",
+      "fuente_esperada": "faq_agenda_cultural.md",
+      "respuesta_esperada": "Debe explicar GRATUITO=1 (gratuito) vs GRATUITO=0 (de pago), según la FAQ.",
+      "deberia_abstenerse": false,
+      "notas": "Caso de acierto claro si el retrieval trae la FAQ"
+    },
+    {
+      "id": "q2",
+      "texto": "¿Hay cine gratuito en verano?",
+      "fuente_esperada": "206974-4-agenda-eventos-culturales-100-csv.csv",
+      "respuesta_esperada": "Debe mencionar eventos de cine con GRATUITO=1 en fechas de verano, citando el corpus.",
+      "deberia_abstenerse": false,
+      "notas": "Respuesta basada en eventos concretos del CSV"
+    },
+    {
+      "id": "q3",
+      "texto": "¿Qué actividades hay en el Parque del Retiro?",
+      "fuente_esperada": "206974-4-agenda-eventos-culturales-100-csv.csv",
+      "respuesta_esperada": "Debe listar actividades/eventos en distrito RETIRO o relacionados con el Retiro.",
+      "deberia_abstenerse": false,
+      "notas": "Puede fallar si top_k es muy bajo o el chunking parte mal la info"
+    },
+    {
+      "id": "q4",
+      "texto": "¿Para qué sirve el PDF del dataset?",
+      "fuente_esperada": "faq_agenda_cultural.md",
+      "respuesta_esperada": "El PDF documenta la estructura del dataset; no es un listado de eventos.",
+      "deberia_abstenerse": false,
+      "notas": "Evitar confundir PDF de documentación con catálogo de eventos"
+    },
+    {
+      "id": "q5",
+      "texto": "¿Cuál es la capital de Francia?",
+      "fuente_esperada": null,
+      "respuesta_esperada": null,
+      "deberia_abstenerse": true,
+      "notas": "Fuera de corpus — debe abstenerse, no inventar París desde chunks genéricos"
+    }
+  ]
+}

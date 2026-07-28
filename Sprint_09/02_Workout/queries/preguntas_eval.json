@@ -1,0 +1,35 @@
+{
+  "descripcion": "Preguntas fijas para el Workout 3 (evaluación del retrieval).",
+  "preguntas": [
+    {
+      "id": "q1",
+      "texto": "¿Qué significa el campo GRATUITO en el dataset?",
+      "fuente_esperada": "faq_agenda_cultural.md",
+      "notas": "Debería recuperar la FAQ sobre GRATUITO=1 vs 0"
+    },
+    {
+      "id": "q2",
+      "texto": "¿Hay cine gratuito en verano?",
+      "fuente_esperada": "206974-4-agenda-eventos-culturales-100-csv.csv",
+      "notas": "Eventos de cine con GRATUITO"
+    },
+    {
+      "id": "q3",
+      "texto": "¿Qué actividades hay en el Parque del Retiro?",
+      "fuente_esperada": "206974-4-agenda-eventos-culturales-100-csv.csv",
+      "notas": "Eventos con distrito RETIRO o mención al Retiro"
+    },
+    {
+      "id": "q4",
+      "texto": "¿Para qué sirve el PDF del dataset?",
+      "fuente_esperada": "faq_agenda_cultural.md",
+      "notas": "FAQ explica que el PDF documenta estructura, no lista eventos"
+    },
+    {
+      "id": "q5",
+      "texto": "¿Cuál es la capital de Francia?",
+      "fuente_esperada": null,
+      "notas": "Pregunta fuera de corpus — chunks irrelevantes o genéricos"
+    }
+  ]
+}

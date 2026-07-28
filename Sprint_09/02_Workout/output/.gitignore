@@ -1,0 +1,5 @@
+# Artefactos generados al ejecutar los notebooks (no versionar)
+*
+!.gitignore
+!.gitkeep
+!README.md

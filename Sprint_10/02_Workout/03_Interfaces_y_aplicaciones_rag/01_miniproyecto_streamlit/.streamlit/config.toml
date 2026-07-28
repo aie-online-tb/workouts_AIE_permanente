@@ -1,0 +1,13 @@
+# Tema de la app (Streamlit lo lee al arrancar).
+# Docs: https://docs.streamlit.io/develop/concepts/configuration
+# Tutorial theming: https://docs.streamlit.io/develop/tutorials
+
+[theme]
+primaryColor = "#0F766E"
+backgroundColor = "#F8FAF9"
+secondaryBackgroundColor = "#E7EFEC"
+textColor = "#1A2E2A"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"
