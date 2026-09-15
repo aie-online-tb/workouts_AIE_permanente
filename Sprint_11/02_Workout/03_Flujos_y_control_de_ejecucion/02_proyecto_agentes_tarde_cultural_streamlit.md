@@ -1,4 +1,4 @@
-![Cabecera](../../assets/cabecera_thebridge.png)
+![Cabecera](../../assets/cabecera_agentes.png)
 
 ### [02_proyecto_agentes_tarde_cultural_streamlit](https://github.com/aie-online-tb/Sprint11_Proyecto_Agentes_tarde_cultural_streamlit)
 
