@@ -1,0 +1,50 @@
+{
+  "nota": "Fallback local si falla la API de Madrid. Misma idea de resumen que el @graph real.",
+  "@graph": [
+    {
+      "title": "Concierto de jazz en café-teatro (ejemplo)",
+      "dtstart": "2026-08-15T19:30:00",
+      "dtend": "2026-08-15T21:00:00",
+      "event-location": "Café Central (ejemplo)",
+      "address": {"locality": "Madrid", "district": {"label": "Centro"}},
+      "free": 0,
+      "description": "Sesión de jazz acústico. Evento de ejemplo para demo sin red."
+    },
+    {
+      "title": "Visita guiada gratuita — barrio de las Letras",
+      "dtstart": "2026-08-16T18:00:00",
+      "dtend": "2026-08-16T19:30:00",
+      "event-location": "Punto de encuentro Plaza de Santa Ana",
+      "address": {"locality": "Madrid", "district": {"label": "Centro"}},
+      "free": 1,
+      "description": "Paseo literario gratuito. Ideal presupuesto bajo."
+    },
+    {
+      "title": "Cine de verano al aire libre (ejemplo)",
+      "dtstart": "2026-08-17T21:30:00",
+      "dtend": "2026-08-17T23:30:00",
+      "event-location": "Parque del Retiro — zona de eventos",
+      "address": {"locality": "Madrid", "district": {"label": "Retiro"}},
+      "free": 1,
+      "description": "Proyección gratuita. Llevar manta; sujeto a meteorología."
+    },
+    {
+      "title": "Exposición temporal de fotografía",
+      "dtstart": "2026-08-10T10:00:00",
+      "dtend": "2026-09-30T20:00:00",
+      "event-location": "Sala Canal de Isabel II (ejemplo)",
+      "address": {"locality": "Madrid", "district": {"label": "Chamberí"}},
+      "free": 0,
+      "description": "Entrada de pago moderado. Abierta en tarde entre semana."
+    },
+    {
+      "title": "Sesión de flamenco en tablao pequeño",
+      "dtstart": "2026-08-18T20:00:00",
+      "dtend": "2026-08-18T21:30:00",
+      "event-location": "Tablao de Lavapiés (ejemplo)",
+      "address": {"locality": "Madrid", "district": {"label": "Arganzuela"}},
+      "free": 0,
+      "description": "Cupo reducido. Presupuesto medio-alto."
+    }
+  ]
+}
