@@ -1,0 +1,6 @@
+{
+  "madrid": {"temp_c": 22, "condicion": "Soleado (ejemplo)"},
+  "barcelona": {"temp_c": 19, "condicion": "Nublado (ejemplo)"},
+  "sevilla": {"temp_c": 29, "condicion": "Caluroso (ejemplo)"},
+  "default": {"temp_c": 18, "condicion": "Variable (ejemplo)"}
+}
