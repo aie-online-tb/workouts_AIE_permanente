@@ -23,8 +23,3 @@ En la primera celda de cada notebook:
 ```bash
 %pip install -qU langgraph langchain-google-genai python-dotenv
 ```
-
-## Guiones
-
-- [`guiones_video/01_primer_grafo_langgraph.md`](./guiones_video/01_primer_grafo_langgraph.md)
-- [`guiones_video/02_condicionales_langgraph.md`](./guiones_video/02_condicionales_langgraph.md)
