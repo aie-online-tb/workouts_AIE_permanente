@@ -9,7 +9,7 @@ Tercer bloque: **panorama** multiagente y multimodal. El hito del sprint sigue s
 | [`01_multiagente_supervisor.ipynb`](./01_multiagente_supervisor.ipynb) | Overview multiagente: bucle supervisor, especialistas, `FINISH`, `MemorySaver` |
 | [`02_multimodal_imagen_texto.ipynb`](./02_multimodal_imagen_texto.ipynb) | LangGraph lineal + Gemini multimodal (`google-genai` en el nodo) |
 
-Proyecto: [`02_proyecto_agente_langgraph_tarde_cultural.md`](./02_proyecto_agente_langgraph_tarde_cultural.md) → carpeta en teoría.
+Proyecto: [`03_proyecto_agente_langgraph_tarde_cultural.md`](./03_proyecto_agente_langgraph_tarde_cultural.md) → carpeta en teoría.
 
 Teoría: [`01_Teoria/03_Multimodal_multiagente_y_cierre/`](../../01_Teoria/03_Multimodal_multiagente_y_cierre/)
 
