@@ -1,8 +1,0 @@
-#!/Users/hugom.montes/Repositorios/material_bootcamp_AI_Engineering/07_MLOps_para_IA_Generativa/Sprint_14/02_Workout/01_FastAPI_y_APIs_para_sistemas_de_IA/01_primera_api_fastapi/.venv/bin/python3
-# -*- coding: utf-8 -*-
-import re
-import sys
-from uvicorn.main import main
-if __name__ == '__main__':
-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
-    sys.exit(main())

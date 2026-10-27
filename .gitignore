@@ -1,0 +1,11 @@
+# Entornos virtuales y cachés (no versionar)
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Secretos
+.env
+
+# macOS
+.DS_Store
